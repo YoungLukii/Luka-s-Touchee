@@ -1,0 +1,572 @@
+label {
+    display: block;
+}
+
+body {
+    background-color: #afacac !important;
+    color: #2c2c2c;
+}
+.admin-body {
+    background-color: #dad6d6 !important;
+    color: #2c2c2c;
+}
+
+/*   NAVBAR   */
+.navbar-brand {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #8a6f4e !important;
+}
+.nav-link.active {
+    color: #8a6f4e !important;
+    font-weight: 600;
+}
+
+.btn-outline-danger {
+    border-width: 2px;
+    font-weight: 600;
+}
+
+/*   HERO SECTION   */
+.hero {
+    background-color: #2c2c2c;
+    color: #f8f5f0;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    color: #c9b99a;
+    margin-top: 10px;
+}
+
+.hero-bienvenida {
+    font-size: 0.85rem;
+    margin-top: 5px;
+}
+
+
+h1.welcome {
+    font-size: 4.5rem;
+    font-weight: 300;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: #f09c0b;
+    margin-bottom: 40px;
+}
+.navbar-expand-lg, bg-body-tertiary{
+
+    background-color: #afacac !important;
+}
+
+.enlacelogin {
+    color: #f09c0b;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+/*   MAIN CONTENT   */
+.menu-title {
+    text-align: center;
+    margin: 50px 0 30px 0;
+    font-size: 1.4rem;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #2c2c2c;
+}
+
+/*   NAVBAR SECCIONES DEL MENÚ   */
+.menu-nav-secciones {
+    background-color: #2c2c2c;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.menu-list-secciones {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0;
+}
+
+.menu-list-secciones li a {
+    display: block;
+    color: #c9b99a;
+    text-decoration: none;
+    padding: 14px 24px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+.menu-list-secciones li a:hover {
+    color: #f09c0b;
+    background-color: #3a3a3a;
+    border-bottom: 3px solid #f09c0b;
+}
+
+/*   TÍTULO DE SECCIÓN EN EL MENÚ   */
+.seccion-titulo {
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #8a6f4e;
+    margin: 40px 0 20px 0;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #c9b99a;
+}
+
+/*   CARDS - PLATOS   */
+.card-plato {
+    border: none;
+    border-radius: 6px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    height: 130px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-plato:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+}
+
+.card-plato img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.card-plato .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px 20px;
+}
+
+.card-plato .card-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    color: #2c2c2c;
+}
+
+.card-plato .precio {
+    font-size: 1.1rem;
+    color: #8a6f4e;
+    font-weight: 300;
+    margin: 0;
+}
+
+/*   NAVBAR RESTAURANTE   */
+.navbar-restaurante {
+    background-color: #2c2c2c;
+    padding: 12px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-restaurante-texto {
+    color: #c9b99a;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.navbar-usuario-texto {
+    color: #f8f5f0;
+    font-size: 0.9rem;
+}
+
+p#logged{
+    color: #e70101;
+    font-size: 2.2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+/*   ADMIN STYLES   */
+.admin-title {
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #2c2c2c;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.admin-card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.admin-card .card-header {
+    padding: 1rem 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.admin-card .card-body {
+    padding: 1.5rem;
+    background-color: #ffffff;
+}
+
+/*   ADMIN TABLES   */
+.table {
+    margin-bottom: 0;
+}
+
+.table thead {
+    background-color: #f8f5f0;
+    font-weight: 600;
+    color: #2c2c2c;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}
+
+.table tbody tr {
+    border-bottom: 1px solid #e0e0e0;
+    transition: background-color 0.2s ease;
+}
+
+.table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+.table tbody td {
+    padding: 1rem 0.75rem;
+    vertical-align: middle;
+}
+
+.badge {
+    padding: 0.5rem 0.75rem;
+    font-weight: 500;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+}
+
+/*   FORM STYLES   */
+.form-control, .form-select {
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 0.75rem 1rem;
+    font-size: 0.95rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #8a6f4e;
+    box-shadow: 0 0 0 0.2rem rgba(138, 111, 78, 0.25);
+}
+
+.form-label {
+    font-weight: 600;
+    color: #2c2c2c;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/*   BUTTONS   */
+.btn {
+    font-weight: 600;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    letter-spacing: 0.5px;
+}
+
+.textito {
+    color: #ce3b3bb6;
+    font-weight: 600;
+}
+
+.cartelbienvenida {
+    color: #c9b99a;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+}
+
+
+.btn:hover {
+   
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0b5ed7;
+}
+
+.btn-success {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.btn-success:hover {
+    background-color: #157347;
+    border-color: #157347;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #000;
+}
+
+.btn-warning:hover {
+    background-color: #ffb800;
+    border-color: #ffb800;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c07e856b!important;
+    border-color: #bb2d3be0;
+   
+}
+a.btn.btn-outline-danger.ms-2 {
+    border-width: 2px;
+    font-weight: 600;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+}
+a.btn.btn-outline-danger.ms-2:hover {
+    border-width: 2px;
+    font-weight: 600;
+    background-color: #dc3546ce!important;
+    border-color: #dc3546ce!important;
+    color: #fff;
+}
+
+/* botones de usuarios baneo */
+
+a.btn.btn-danger:hover{
+background-color: #aa2431fd!important;
+    border-color: #bb2d3be0;
+  
+}
+
+.btn-sm {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+}
+
+/*   PLATOS DETALLADOS   */
+.platos-detallados-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.card-plato-detallado {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-plato-detallado:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-detallado-img {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+.card-detallado-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card-plato-detallado:hover .card-detallado-img img {
+    transform: scale(1.05);
+}
+
+.card-detallado-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-detallado-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #2c2c2c;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #f09c0b;
+    padding-bottom: 10px;
+}
+
+.card-detallado-descripcion {
+    font-size: 0.9rem;
+    color: #555555;
+    line-height: 1.6;
+    margin-bottom: 16px;
+    flex-grow: 1;
+    text-align: justify;
+}
+
+.card-detallado-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 12px;
+    margin-top: auto;
+}
+
+.precio-grande {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #f09c0b;
+    margin: 0;
+}
+
+/*   RESPONSIVE   */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .menu-title {
+        font-size: 1.1rem;
+    }
+
+    .card-plato {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .card-plato img {
+        width: 100%;
+        height: 150px;
+    }
+
+    .admin-title {
+        font-size: 1.5rem;
+    }
+
+    .table-responsive {
+        font-size: 0.9rem;
+    }
+
+    .btn-group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.25rem;
+    }
+
+    .menu-list-secciones li a {
+        padding: 10px 14px;
+        font-size: 0.75rem;
+        letter-spacing: 1px;
+    }
+
+    .platos-detallados-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 16px;
+    }
+
+    .card-detallado-img {
+        height: 180px;
+    }
+
+    .card-detallado-title {
+        font-size: 0.95rem;
+    }
+
+    .card-detallado-descripcion {
+        font-size: 0.85rem;
+    }
+
+    .precio-grande {
+        font-size: 1.15rem;
+    }
+}
+
+/*   FOOTER   */
+.footer {
+    background-color: #2c2c2c;
+    color: #c9b99a;
+    padding: 50px 20px;
+    margin-top: 80px;
+    border-top: 3px solid #f09c0b;
+}
+
+.footer-content {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.footer-content p {
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.footer-content strong {
+    color: #f09c0b;
+    font-weight: 600;
+}
